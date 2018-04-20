@@ -1,0 +1,9 @@
+自定义view MyButton
+自定义viewgroup MyLinearLayout
+
+重写view的dispatchTouchEvent，setOnTouchListener，onTouchEvent方法
+viewgroup的dispatchTouchEvent，onInterceptTouchEvent，onTouchEvent方法
+activity的dispatchTouchEvent，onTouchEvent方法
+结合源码和事件分发图：onenvent.png
+来验证view的事件分发流程。
+代码中都有详细的方法注释~~~
